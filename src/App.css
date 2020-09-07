@@ -1,0 +1,173 @@
+/* Général */
+
+body {
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  padding-top: 40px;
+}
+
+/* Navbar */
+
+.nav-item {
+  color: white;
+  padding-left: 25px;
+}
+
+.nav-item:hover {
+  color: darkturquoise;
+  cursor: pointer ;
+}
+
+.reseaux {
+  font-size: 30px;
+  color: white;
+}
+
+.reseaux:hover {
+  color: darkturquoise;
+}
+
+.icones {
+  font-size: 20;
+  color: 'white';
+}
+
+h1 {
+  color: "#f6e58d";
+  text-align: 'center';
+  background-color: '#be2edd';
+  margin-top: 25px;
+}
+
+/* A propos */
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  font-size: 20;
+  margin-top: 85px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+.fonction {
+   text-align: center;
+}
+
+.cv {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.cv a {
+  color: white;
+  padding: 5px;
+}
+
+.cv a:hover {
+  text-decoration: none;
+}
+
+.description {
+  line-height: 1.8em;
+}
+
+/* Mes competences */ 
+
+#competences {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#competences h3 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#competences .card-title {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#competences .card-header {
+  text-align: center;
+}
+
+#competences ul {
+  list-style-type: none;
+  text-align: justify;
+  width: 100%;
+  padding: 20px;
+}
+
+.iconeCheck {
+  font-size: 10;
+  color: green;
+  margin-right: 10px;
+}
+
+/* Mes projets */
+
+#projets {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.carousel {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel h5{
+  color: black;
+}
+
+.carousel p{
+  color: #6d6d6d;
+}
+
+.carousel a {
+  margin-left : 15px;
+  margin-right: 15px;
+  color: #004284;
+}
+
+.carousel a:hover {
+  color: #004284;
+  text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #343A40;
+  font-weight: bold;
+  justify-content: center;
+  color: #fff;
+  padding: 0;
+  margin: -10px;
+  display: flex;
+  align-items: center;
+}
+
