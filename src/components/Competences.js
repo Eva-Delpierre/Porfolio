@@ -6,10 +6,10 @@ import {Container, Row, Col, Card, CardText, CardBody, CardTitle, CardHeader} fr
 
 
 function Competences() {
-  return (
-    <div id="competences" className="d-flex align-items-center justify-content-center">  
+  return ( 
+    <div id="competences" className="d-flex align-items-center justify-content-center">
         <Container>
-        <h3> Mes compétences</h3>
+            <h3> Mes compétences</h3> 
             <Row className="d-flex justify-content-center">
                 <Col xs={12} sm={8} lg={3}>
                     <Card className="border-primary mb-3">
@@ -73,7 +73,6 @@ function Competences() {
 
             </Row>
         </Container>
- 
     </div>
   );
 }

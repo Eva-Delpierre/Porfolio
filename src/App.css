@@ -61,6 +61,12 @@ h1 {
   padding: 30px;
 }
 
+@media screen and (max-width: 991) {
+  #about {
+    height: 100%;
+  }
+}
+
 .fonction {
    text-align: center;
 }
@@ -91,6 +97,12 @@ h1 {
   height: 100vh;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 991) {
+  #competences {
+    height: 100%;
+  }
 }
 
 #competences h3 {
@@ -129,6 +141,12 @@ h1 {
   height: 100vh;
   margin-top: 30px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 991) {
+  #projets {
+    height: 100%;
+  }
 }
 
 .carousel {
