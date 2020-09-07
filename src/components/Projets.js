@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Carousel, CarouselItem, CarouselControl} from 'reactstrap';
+import {Carousel, CarouselItem, CarouselControl, Container} from 'reactstrap';
 import { Button } from 'react-bootstrap';
 
 const items = [
@@ -131,19 +131,21 @@ const Projets = (props) => {
     <div id="projets">
       <h3> Mes projets </h3>
 
-      <div class="d-flex justify-content-center">
-        <div class="col-sm-8 carousel-fade">
-          <Carousel
-            activeIndex={activeIndex}
-            next={next}
-            previous={previous}
-          >
-            {slides}
-            <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-            <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
-          </Carousel>
+      <Container>
+        <div class="d-flex justify-content-center">
+          <div class="col-sm-8 carousel-fade">
+            <Carousel
+              activeIndex={activeIndex}
+              next={next}
+              previous={previous}
+            >
+              {slides}
+              <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+              <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+            </Carousel>
+          </div>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

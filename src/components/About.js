@@ -12,7 +12,7 @@ function About() {
     <Container>
         <Row>
             <Col xs={12} xl={4} className="d-flex align-items-center justify-content-center test">
-                <Image src="../images/Eva2.jpg" style={{width: 300, height: 300}} roundedCircle className="img-fluid" alt=""/>
+                <Image src="../images/Eva2.jpg" alt="EvaDelpierre" roundedCircle className="img-fluid photo" alt=""/>
             </Col>
 
             <Col xs={12} xl={8} className="presentation">
