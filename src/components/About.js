@@ -20,8 +20,8 @@ function About() {
                 
                 <p className="description">
                   Je viens de terminer ma formation de Développeuse Web et Mobile à <a href="https://www.lacapsule.academy"> La Capsule </a> de Lyon ! <br/>
-                  Pendant trois mois j’ai appris à développer des sites et applications mobiles avec Javascript, React	&amp; React Native, à gérer le backend avec Express et exploiter une base de données telle que Mongo DB. <br/>
-                  Grâce aux projets réalisés j’ai également eu l’occasion de travailler en équipe avec Git hub. <br/> <br/>
+                  Pendant trois mois j’ai appris à développer des sites et applications mobiles avec Javascript, React	&amp; React Native, à gérer le backend avec Express et exploiter une base de données telle que MongoDB. <br/>
+                  Grâce aux projets réalisés j’ai également eu l’occasion de travailler en équipe avec GitHub. <br/> <br/>
                   Afin de consolider toutes ces nouvelles compétences, je suis à la recherche d’un stage de Développeuse Web &amp; Mobile à Lyon, d’une durée de 3 à 6 mois. <br/> 
                 </p>
 

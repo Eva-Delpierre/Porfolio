@@ -24,7 +24,7 @@ const Menu = (props) => {
               offset={-70}
               duration={500}
             >
-              EVA DELPIERRE
+              <span className="bold"> EVA DELPIERRE </span>
           </Link>
         </NavbarBrand>
         <NavbarToggler onClick={toggle} />

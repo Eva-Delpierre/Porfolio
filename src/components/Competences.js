@@ -11,7 +11,7 @@ function Competences() {
         <Container>
             <h3> Mes compétences</h3> 
             <Row className="d-flex justify-content-center">
-                <Col xs={12} sm={8} lg={3}>
+                <Col xs={9} sm={7} lg={3}>
                     <Card className="border-primary mb-3">
                         <CardHeader> <FontAwesomeIcon icon={faCode} style={{fontSize: 20, color: 'red'}}/> </CardHeader>
                         <CardBody>
@@ -28,7 +28,7 @@ function Competences() {
                     </Card>
                 </Col>
 
-                <Col xs={12} sm={8} lg={3}>
+                <Col xs={9} sm={7} lg={3}>
                     <Card className="border-primary mb-3">
                         <CardHeader> <FontAwesomeIcon icon={faServer} style={{fontSize: 20, color: 'red'}}/> </CardHeader>
                         <CardBody>
@@ -43,7 +43,7 @@ function Competences() {
                     </Card>
                 </Col>
 
-                <Col xs={12} sm={8} lg={3}>
+                <Col xs={9} sm={7} lg={3}>
                     <Card className="border-primary mb-3">
                         <CardHeader> <FontAwesomeIcon icon={faDatabase} style={{fontSize: 20, color: 'red'}}/> </CardHeader>
                         <CardBody>
@@ -57,7 +57,7 @@ function Competences() {
                     </Card>
                 </Col>
 
-                <Col xs={12} sm={8} lg={3}>
+                <Col xs={9} sm={7} lg={3}>
                     <Card className="border-primary mb-3">
                         <CardHeader> <FontAwesomeIcon icon={faCodeBranch} style={{fontSize: 20, color: 'red'}}/> </CardHeader>
                         <CardBody>
